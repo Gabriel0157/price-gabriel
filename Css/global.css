@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 400,700;
+    font-size: 400, 700;
     font-family: 'Karla', sans-serif;
     box-sizing: border-box;
 }
@@ -14,5 +14,19 @@ body {
 
 main {
     padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
     padding-inline: 2rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    color: var(--cyan);
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #ffffff;
+    margin-bottom: 1.125rem;
 }
