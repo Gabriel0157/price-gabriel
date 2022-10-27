@@ -1,19 +1,19 @@
 .superior {
-    padding-inline: 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-radius: 5px;
     background: #ffffff;
 }
 
-.superior>p {
+.superior p:nth-child(2n) {
     font-weight: 700;
     line-height: 1.25rem;
     color: var(--bright-yellow);
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
-.maior {
+.superior p:nth-child(2n-1) {
     line-height: 1.625rem;
     color: var(--grayish-blue);
     font-size: 0.875rem;
@@ -24,9 +24,54 @@
     padding: 1.5rem;
 }
 
-.esquerda p:nth-child(1) {
+.esquerda div p:nth-child(1) {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
+    padding-right: 0.75rem;
+}
+
+.esquerda div p:nth-child(2) {
+    color: #ffffff;
+    opacity: 0.5;
+
+}
+
+.esquerda div {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -1.25rem;
+}
+
+.esquerda p {
+    color: #ffffff;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+
+}
+
+.esquerda button {
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    border-radius: 5px;
+    background: var(--bright-yellow);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.097);
+}
+
+.direita {
+    background: var(--light-cyan);
+    padding: 1.5rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: #ffffff;
+    opacity: 0.75;
 }
